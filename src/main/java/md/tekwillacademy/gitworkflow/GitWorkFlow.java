@@ -6,6 +6,7 @@ public class GitWorkFlow {
 
     public void ReadSteps(String[] steps)
     {
+        // read all steps
         this.steps = steps;
         for (String step : steps){
             System.out.println(step);
